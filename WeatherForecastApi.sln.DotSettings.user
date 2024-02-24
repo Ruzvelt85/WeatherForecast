@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6dddbefb_002Da444_002D4c54_002D8ecd_002De639ea18f3d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AutomapperConfigurationTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A75F2ED4-5DE9-4C7A-AAB0-4AF69D28B71A::net6.0::WeatherForecastApi.Tests.MappingTests.AutomapperConfigurationTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A75F2ED4-5DE9-4C7A-AAB0-4AF69D28B71A::net6.0::WeatherForecastApi.Tests.CreateWeatherForecastRequestDtoValidatorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A75F2ED4-5DE9-4C7A-AAB0-4AF69D28B71A::net6.0::WeatherForecastApi.Tests.CreateWeatherForecastCommandHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A75F2ED4-5DE9-4C7A-AAB0-4AF69D28B71A::net6.0::WeatherForecastApi.Tests.GetWeatherForecastQueryHandlerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherForecastApi.Commands\WeatherForecastApi.Commands.csproj" />
+    <ProjectReference Include="..\WeatherForecastApi.Domain\WeatherForecastApi.Domain.csproj" />
+    <ProjectReference Include="..\WeatherForecastApi.Dto\WeatherForecastApi.Dto.csproj" />
+    <ProjectReference Include="..\WeatherForecastApi.Queries\WeatherForecastApi.Queries.csproj" />
+  </ItemGroup>
+
+</Project>

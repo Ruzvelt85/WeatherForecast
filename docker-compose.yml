@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  weatherforecastapi.webapi:
+    image: ${DOCKER_REGISTRY-}weatherforecastapiwebapi
+    build:
+      context: .
+      dockerfile: src/WeatherForecastApi.WebApi/Dockerfile
+    ports:
+      - 5002:80

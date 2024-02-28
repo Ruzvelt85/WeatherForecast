@@ -11,19 +11,28 @@ InMemory Database is used for storing data.
 The solution consists of 6 projects:
 
 **WebApi**: Contains the API controller, action filter and middleware for exception handling.
+
 **Domain**: Defines domain model
+
 **Dto**: Contains DTO models for requests and responses and its validators
+
 **Commands**: Contains the command and the command handler for storing weather forecasts.
+
 **Queries**: Contains the query and the query handler for receiving weather forecasts.
+
 **CrosscuttingInfrastructure**: Contains custom exceptions and common helper files.
+
 **Data**: Contains interaction with data layer (EF Core context, repositories, unit of work).
+
 **Tests**: Contains unit tests for controllers, query handler, command handler, validators, and mapping.
+
 
 This structure can be a little bit extensive or even redundant for the scope of the given task, but it follows DDD approach and onion architecture principles and will be able to accomodate the following features well.
 
 ###  Requests
 
 **POST /WeatherForecast**: Adds a weather forecast for the specific date. It is not allowed to store weather forecast for the same date.
+
 **GET /WeatherForecast**: Returns existing weather forecasts for the next 7 days starting from today. In case of absence of the forecasts it returns an empty array.
 
 ###  Build and Run
